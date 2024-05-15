@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="fi">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ninan sivut</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="hero-section">
+        <img src="assets/images/dogs.jpg" alt="Koirat" class="hero-image">
+    </div>
+
+    <!-- Navigointi -->
+    <nav class="navbar navbar-expand-md bg-body-tertiary">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse centered-nav" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Etusivu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cosmon_tarina.html">Cosmon Tarina</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="astron_tarina.html">Astron Tarina</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tietoa_rodusta.html">Tietoa rodusta</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sivun sisältö -->
+    <main class="page-content">
+        <div class="container">
+            <h1 class="mb-4">Astro alias Jääkarhu</h1>
+
+            <div class="mb-5">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col">Väri</th>
+                            <th scope="col">Ikä</th>
+                            <th scope="col">Sukupuoli</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Valkoinen</td>
+                            <td>2</td>
+                            <td>Uros</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="mb-5">
+                <p>Cosmon tarinassa hiukan sivusin jo sitä, kuinka Astro päätyi meille. Astro oli tosiaan yksi kolmesta pennuista
+                    joka oli jäämässä ilman kotia. Pentuja oli syntynyt hurjat 7 kpl ja neljä muuta oli varattu jo heti kättelyssä
+                    Kennel oli pieni ja tuntematon, mikä tarkoittaa rotukoirien maailmassa sitä, että kennelin omilla koirilla ei 
+                    ole juurikaan menestystä näyttelyissä tai tokossa. Pennut olivat kuitenkin täysin terveitä ja hyvistä vanhemmista
+                    joten uskalsin varata ainoa pinen valkoisen uroksen, jota kutsuttiin Jääkarhuksi. Isoksi harmikseni tajusin vasta siinä
+                    vaiheessa, että pentu on Kuhmossa asti, Jyväskylästä olisi n. neljä ja puoli tuntia yhteen suuntään.
+                    7 vuotias poikani ilmoittautui heti matkaseuraksi ja oli sinnoissaan lähdössä koiran nouto reissulle. 
+                    Eihän siinä sitten muu auttanut, kun eräs vappupäivän aamu lähteä ajamaan kohti kuhmoa aamu hämärissä. 
+                    Kun saavuimme perille, vastaan juoksi lauma pieniä pörröisiä koiria, jotka haukkuivat innoissaan ja heiluttivat häntiään.
+                    Koiralauman mukana juoksenteli myös tämä pieni "jääkarhun pentu" ja poikani nappasikin sen heti syliinsä. 
+                    Pentu nuoli villisti poikani kasvoja ja siitä se ystävyys sitten alkoi. Vanhan maatilan tuvasta tuli vanhempi rouva
+                    katsomaan, mitä koirat mekastavat. Kahvit juotuamme (ja koiralauman kanssa leikittyämme) nappasimme uuden asukkimme
+                    tavaroineen kyytiin ja pitkä kotimatka sai alkaa. Illalla kotona meitä odotettiin jo kuumeisesti ja jo ensimmäisenä iltana,
+                    Cosmo ja astro nukkuivat viretysten samassa koiran pesässä.
+                </p>
+            </div>
+
+            <div id="carouselExample" class="carousel slide mb-5 custom-carusel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/images/1715708032979.jpg" class="d-block w-100" alt="kuva1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/1715708032996.jpg" class="d-block w-100" alt="kuva2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/1715708033026.jpg" class="d-block w-100" alt="kuva3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Edellinen</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Seuraava</span>
+                </button>
+            </div>
+        </div>
+
+         <div class="mb-5">
+             <h5>Sano moi Astrolle!</h5>
+             <form>
+                <div class="mb-3">
+                      <label for="subject" class="form-label">Otsikko</label>
+                      <input type="text" class="form-control" id="subject">
+                </div>
+                <div class="mb-3">
+                    <label for="hello" class="form-label">Tervehdys</label>
+                    <textarea class="form-control" id="hello" rows="5"></textarea>
+                </div>
+                   <button type="submit" class="btn btn-primary">Lähetä</button>
+                </form>
+             </div>
+         </div>
+     </main>
+
+    <!-- Tätä tarvitaan, jotta sliderit toimivat -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
